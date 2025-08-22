@@ -1,0 +1,28 @@
+.pomodoro-timer {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .pomodoro-timer h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .pomodoro-timer h2 {
+    font-size: 3rem;
+    margin: 20px 0;
+  }
+  
+  .pomodoro-timer button {
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .pomodoro-timer button:hover {
+    background-color: #21a1f1;
+  }
