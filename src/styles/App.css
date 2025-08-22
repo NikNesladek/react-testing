@@ -41,3 +41,15 @@ h1, h2, h3, h4, h5, h6 {
 .button:hover {
     background-color: #21a1f1;
 }
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
