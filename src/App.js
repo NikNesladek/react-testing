@@ -6,11 +6,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to My React App</h1>
-        <p>test!</p>
-        <PomodoroTimer />
-        <p>test!</p>
+        <h1>Pomodoro Timer</h1>
       </header>
+      <div style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <PomodoroTimer />
+      </div>
+      <p>Add tasks below</p>
+      {/* <TaskList /> */}
     </div>
   );
 }
